@@ -1,0 +1,8 @@
+/*
+ * WooCommerce compatibility styles for CT Custom.
+ */
+.woocommerce .columns-3 ul.products li.product{width:30.8%;float:left;margin-right:3.8%}
+.woocommerce .columns-3 ul.products li.product:nth-child(3n){margin-right:0}
+.woocommerce ul.products{list-style:none;margin:0;padding:0}
+.woocommerce ul.products li.product img{max-width:100%;height:auto;display:block}
+@media(max-width:767px){.woocommerce .columns-3 ul.products li.product{width:100%;float:none;margin-right:0}}
